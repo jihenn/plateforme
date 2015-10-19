@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>
+        Inscription IGC</title>
+ <link rel="stylesheet" type="text/css" href="inscrit.css">
+<script type="text/javascript" src="test.js"></script>
+<link rel="stylesheet" type="text/css" href="ghost.css">
+ <style type="text/css">
+<!--
+.style1 {font-size: xx-large}
+.style2 {color: #660099}
+.style3 {
+    font-style: italic;
+    color: #000000;
+}
+.style4 {font-style: italic}
+.style5 {color: #FF0000}
+.style7 {color: #0000FF}
+.style8 {color: #006600}
+.style10 {
+    font-size: xx-large;
+    color: #FFFF00;
+    font-style: italic;
+    font-weight: bold;
+}
+.style11 {color: #FFFF00}
+.style6 {	color: #CC66CC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: large;
+}
+-->
+ </style>
+</head>
+<body background="123.png">
+  <div align="left"><a href="index.html" class="style6">homepage</a><a href="index.html"></a>  </div>
+
+<form action="enrg.html" method="post" name="f" onSubmit="return verif()" id="f">
+    <fieldset>
+        <ul>
+        <div align="center">
+          <h4 class="style2"><br> 
+            <span class="style1" style="-moz-user-select: none;"><em><strong><span class="style5">Welc</span><span class="style7">ome</span> <span class="style8">to Our</span> <span class="style11">Club</span></strong></em></span>   <span class="style10"></br>
+           </span>            </h4>
+        </div>
+        <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="Name">
+          </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="Email">
+            </li>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <ul>
+         <li>
+              <br>  <label for="text">Votre Age</label> </br>
+                <input type="text" class="required" name="age" id="age"> 
+          </li>
+            <li>
+              <br>  <label for="text">N°CIN</label> </br>
+                <input type="text" class="required" name="cin" id="cin" maxlength="8"> 
+            </li>
+            <li>
+              <br>  <label for="text">N°TEL</label> </br>
+                <input type="text" class="required" name="tel" id="tel"> 
+            </li>
+            <li class="style3">
+                <strong>
+                <label for="selector"></label>
+                </strong>
+                <div class="selector"><strong>
+                <br> 
+                <span style="-moz-user-select: none;">Please Select Your level</span></strong></div>
+            </li>
+           
+           
+            <li>
+              <div class="selector">   </br>
+                <select class="selectors" name="selector" id="selector">
+                  <option value="" selected="">Please Select...</option> 
+                  <option>Prepa A1</option> 
+                  <option>Prepa A2</option> 
+                  <option>FIA 1</option> 
+                  <option>FIA 2 4</option> 
+                  <option>LMD </option> 
+                </select>
+              </div>
+            </li>
+          <li>
+                <label for="selector"></label>
+                <div class="selector">
+                    <br> 
+                    <span style="-moz-user-select: none;"><em><strong>Please Select Question To Answer  </strong></em></span> <em><strong></br>
+                    </strong> </em></div>
+          </li>
+           
+               <li>
+                 <div class="selector">
+                   <select class="selectors" name="selector1" id="selector1">
+                     <option value="" selected="">Please Select...</option> 
+                     <option>why did you choose to join us ? </option> 
+                     <option>what is your ambition ?</option> 
+                     <option>What is most important in your life ? </option> 
+                     <option>What do you think are your two main defects ?</option> 
+                     <option>How Do you work as a team ?</option>
+                   </select>
+                 </div>
+               </li>
+               <br> 
+               <span class="style4">
+               <label for="textarea"><strong>Answer your question</strong></label>
+               </span>
+               <p></br>
+                 
+                 <textarea name="textarea"></textarea>
+                 </li>
+               </p>
+            <li>
+               <br></br>
+            </li>
+            <li>
+              <input type="submit" name="submit">
+              <input type="reset" name="Annuler">
+            </li>
+        </ul>
+    </fieldset>
+</form>
+<div align="center"><img src="r.png" width="53" height="53"><img src="b.png" width="50" height="50"><img src="j.png" width="50" height="50"><img src="v.png" width="50" height="50"></div>
+</body>
+</html>
